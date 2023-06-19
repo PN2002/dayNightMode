@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease;
+}
+
+.darkTheme{
+    background-color: #333;
+    color: #f1f1f1;
+    transition: 0.4s ease;
+}
+
+button{
+    background-color: #053C5E;
+    color: #fff;
+    cursor: pointer;
+    border: unset;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+}
+
+.darkTheme button{
+    background-color: #BC2C1A;
+    color: #fff;
+    cursor: pointer;
+    border: unset;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
